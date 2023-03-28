@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <supermercados>
+      <element>
+         <direccion>Calle salmón, 5, 34980 Burgos</direccion>
+         <geolocalizacion>
+            <latitud>42.3349124</latitud>
+            <longitud>-3.6966103</longitud>
+         </geolocalizacion>
+         <nombre>Mercadona</nombre>
+         <productos>
+            <element>
+               <comprado>false</comprado>
+               <habitual>false</habitual>
+               <nombre>Leche Pascual</nombre>
+               <oferta>true</oferta>
+               <periodo_oferta>
+                  <desde>2023-04-02</desde>
+                  <hasta>2023-04-30</hasta>
+               </periodo_oferta>
+               <precio>1.1</precio>
+               <unidad_medida>litro</unidad_medida>
+               <unidades>1</unidades>
+            </element>
+            <element>
+               <comprado>true</comprado>
+               <habitual>true</habitual>
+               <nombre>Huevos camperos</nombre>
+               <oferta>false</oferta>
+               <precio>1.99</precio>
+               <unidad_medida>unidades</unidad_medida>
+               <unidades>12</unidades>
+            </element>
+         </productos>
+      </element>
+      <element>
+         <direccion>Calle Mantilla, 30, 28008 Madrid</direccion>
+         <geolocalizacion>
+            <latitud>40.4261774</latitud>
+            <longitud>-3.7173365</longitud>
+         </geolocalizacion>
+         <nombre>Carrefour</nombre>
+         <productos>
+            <element>
+               <comprado>false</comprado>
+               <habitual>true</habitual>
+               <nombre>Agua mineral Solán de Cabras</nombre>
+               <oferta>false</oferta>
+               <precio>2.99</precio>
+               <unidad_medida>litros</unidad_medida>
+               <unidades>6</unidades>
+            </element>
+            <element>
+               <comprado>false</comprado>
+               <habitual>false</habitual>
+               <nombre>Paquete de salmón ahumado</nombre>
+               <oferta>true</oferta>
+               <periodo_ofeerta>
+                  <desde>2023-04-02</desde>
+                  <hasta>2023-04-30</hasta>
+               </periodo_ofeerta>
+               <precio>4.99</precio>
+               <unidad_medida>250 gramos</unidad_medida>
+               <unidades>1</unidades>
+            </element>
+         </productos>
+      </element>
+   </supermercados>
+</root>

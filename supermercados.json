@@ -1,0 +1,69 @@
+{
+    "supermercados": [
+        {
+            "nombre": "Mercadona",
+            "direccion": "Calle salmón, 5, 34980 Burgos",
+            "geolocalizacion": {
+                "latitud" : 42.3349124,
+                "longitud": -3.6966103
+            },
+            "productos": [
+                {
+                    "nombre": "Leche Pascual",
+                    "oferta": true,
+                    "periodo_oferta": {
+                        "desde": "2023-04-02",
+                        "hasta": "2023-04-30"
+                    },
+                    "habitual": false,
+                    "unidades" : 1,
+                    "unidad_medida": "litro",
+                    "precio": 1.10,
+                    "comprado": false
+                },
+                {
+                    "nombre": "Huevos camperos",
+                    "oferta": false,
+                    "habitual": true,
+                    "unidades": 12,
+                    "unidad_medida": "unidades",
+                    "precio": 1.99,
+                    "comprado": true
+            }
+            ]
+        },
+        {
+            "nombre":"Carrefour",
+            "direccion": "Calle Mantilla, 30, 28008 Madrid",
+            "geolocalizacion": {
+                "latitud": 40.4261774,
+                "longitud": -3.7173365
+            },
+            "productos": [
+                {
+                    "nombre": "Agua mineral Solán de Cabras",
+                    "oferta":false,
+                    "habitual":true,
+                    "unidades": 6,
+                    "unidad_medida": "litros",
+                    "precio": 2.99,
+                    "comprado":false
+                },
+                {
+                    "nombre":"Paquete de salmón ahumado",
+                    "oferta": true,
+                    "periodo_ofeerta": {
+                        "desde": "2023-04-02",
+                        "hasta":"2023-04-30"
+                    },
+                    "habitual":false,
+                    "unidades":1,
+                    "unidad_medida": "250 gramos",
+                    "precio": 4.99,
+                    "comprado":false
+        
+                }
+            ]
+        }
+    ]
+}
